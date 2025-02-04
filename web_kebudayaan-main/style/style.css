@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "NeueHaas Bold";
+    src: url('../assets/fonts/NeueHaasFont/NeueHaasDisplayBold.ttf');
+}
+
+@font-face {
+    font-family: "NeueHaas Regular";
+    src: url('../assets/fonts/NeueHaasFont/NeueHaasDisplayRegular.ttf');
+}
+
+@font-face {
+    font-family: "NeueHaas Light";
+    src: url('../assets/fonts/NeueHaasFont/NeueHaasDisplayLight.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url('../assets/fonts/MontserratFont/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat Semibold";
+    src: url('../assets/fonts/MontserratFont/Montserrat-SemiBold.ttf');
+}
+
+.font-style-neueHaas-bold {
+    font-family: "NeueHaas Bold", serif;
+}
+
+.font-style-neueHaas-regular {
+    font-family: "NeueHaas Regular", serif;
+}
+
+.font-style-neueHaas-light {
+    font-family: "NeueHaas Light", serif;
+}
+
+.font-style-montserrat-regular {
+    font-family: "Montserrat Regular", serif;
+}
+
+.font-style-montserrat-semibold {
+    font-family: "Montserrat Semibold", serif;
+}
+
+.background-cream {
+    background-color: #F8F6F0;
+}
+
+.background-black {
+    background-color: #101010;
+}
+
+
+* {
+    font-family: "Montserrat Regular", serif;
+}
+
+body {
+    background-color: #F8F6F0;
+}
+
+.navbar {
+    background-color: #F8F6F0;
+}
+
+.image-saturation-hover {
+    filter: saturate(0%);
+    transition: 0.3s;
+}
+
+.image-saturation-hover:hover {
+    filter: saturate(75%)
+}
+
+.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
